@@ -1,0 +1,39 @@
+@import"variables";
+
+header{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-image: url(../img/img6.jpg);
+    height:450px;
+    background-size:cover;
+    background-repeat: no-repeat ;
+
+    .conte{
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px 0;
+            text-align: center;
+    }
+    p{
+        font-size:60px ;
+        font-weight: bold;
+        margin: 1em 0;
+        color:$color-secundario;
+        border-radius: 30px;
+        background: $color-terciario;
+
+
+    }
+    a{
+        color: $color-secundario;
+        text-decoration: none;
+        background: $color-terciario ;
+        padding: 4px 20px;
+        border-radius:30px ;
+        font-size: 30px;
+        margin:10px;
+    
+    }
+}
+
